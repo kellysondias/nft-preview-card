@@ -18,7 +18,6 @@
 
 html {
     background-color: var(--Main-BG);
-    max-width: 1440px;
     margin: 0 auto;
     font-family: 'Outfit', sans-serif;;
 }
