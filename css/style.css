@@ -4,10 +4,13 @@ img {
     border-radius: 10px;
 }
 
-main {
+.card {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    height: 100vh;
+    max-width: 350px;
     background-color: var(--Card-BG);
 }
