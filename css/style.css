@@ -11,14 +11,11 @@
 
 
 .card img {
+    position: relative;
     margin-top: 5%;
     width: 315px;
     height: 315px;
     border-radius: 10px;
-}
-
-.card img:hover{
-    color: var(--Cyan);
 }
 
 .card .text {
@@ -101,4 +98,20 @@
     margin-right: 15px;
     border: var(--White) solid 1px;
     border-radius: 20px;
+}
+
+
+@media (max-width: 350px) {
+    .card {
+        max-width: 90%;
+    }
+
+    .card img {
+        max-width: 100%;
+        
+    }
+
+    .card .text h3 {
+        width: 100%;
+    }
 }
