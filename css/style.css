@@ -107,11 +107,18 @@
     }
 
     .card img {
-        max-width: 100%;
-        
+        max-width: 280px;
+        height: 280px;
     }
 
     .card .text h3 {
         width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .card img {
+        max-width: 260px;
+        height: 260px;
     }
 }
