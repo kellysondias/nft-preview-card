@@ -100,7 +100,6 @@
     border-radius: 20px;
 }
 
-
 @media (max-width: 350px) {
     .card {
         max-width: 90%;
