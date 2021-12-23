@@ -1,16 +1,74 @@
 img {
-    width: 320px;
-    height: 320px;
+    margin-top: 5%;
+    width: 315px;
+    height: 315px;
     border-radius: 10px;
+}
+
+.card .text {
+    margin: 25px 0 auto 20px;
+}
+
+.card .text h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card .text h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.card .text div {
+    margin: 25px auto;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .text div p:first-child {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--Cyan);
+}
+
+.card .text div p:first-child::before {
+    content: "";
+    background: url(/images/icon-ethereum.svg) no-repeat center center;
+    display: inline-block;
+    width: 11px;
+    height: 18px;
+    margin-right: 5px;
+    transform: translateY(3px);
+}
+
+.card .text div p:last-child {
+    font-size: 15px;
+    color: var(--Line);
+    margin-right: 5%;
+}
+
+.card .text div p:last-child::before {
+    content: "";
+    background: url(/images/icon-clock.svg) no-repeat center center;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    transform: translateY(3px);
+}
+
+.card .text h3 {
+    border-top: var(--Line) solid 0.5px;
+    width: 300px;
 }
 
 .card {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
     align-items: center;
-    align-content: center;
-    height: 100vh;
     max-width: 350px;
+    border-radius: 15px;
     background-color: var(--Card-BG);
 }
